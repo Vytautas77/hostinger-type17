@@ -1,0 +1,13 @@
+.footerImg {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+}
+.footerImg img {
+    margin: auto;
+    width: 70%;
+    cursor: pointer;
+}
