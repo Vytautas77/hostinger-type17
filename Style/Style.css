@@ -85,7 +85,7 @@ main{
     border: 1px solid #2f1c6a;
     padding: 10px;
 }
-.mainBoxleft button {
+.button {
     all: unset;
     background-color: #2f1c6a;
     color: white;
@@ -97,7 +97,7 @@ main{
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.mainBoxleft button :hover{
+.button:hover{
     background-color: #988ac2;
 }
 .shieldImg {

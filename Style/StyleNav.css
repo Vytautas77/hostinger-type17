@@ -1,0 +1,90 @@
+.navBox{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+}
+.navBoxSecond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.navBoxSecond p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.navBoxSecond span {
+    color: grey;
+    font-size: 14px;
+}
+.navBoxSecondButton{
+    all: unset;
+    color: #7555d3;
+    font-weight: 500;
+    background-color: #c7c1d774;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.navBoxSecond .price {
+    font-size: 36px;
+    color:#2f1c6a;
+    font-weight: 600;
+}
+.navBoxSecond p:nth-child(4){
+    font-size: 14px;
+    color: #cdc1ee;
+}
+.navBoxSecond p:nth-child(5){
+    font-size: 18px;
+    font-weight: 500;
+    color: #7555d3;
+}
+.navBoxSecond p:nth-child(7){
+    font-size: 14px;
+    font-weight: 200;
+    color: #7555d3;
+}
+.navBoxSecond button{
+    margin: 0;
+}
+.broke {
+    text-decoration: line-through;
+}
+
+.navBoxFirst{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navBoxFirst div {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.navBoxFirst img {
+    width: 15px;
+    margin-right: 5px;
+}
+.navBoxFirst span {
+    font-weight: 800;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.KnowMore {
+margin: auto;
+margin-top: 20px;
+font-weight: 900;
+cursor: pointer;
+}
+.KnowMore img{
+    width: 15px;
+    margin-left: 5px;
+}
