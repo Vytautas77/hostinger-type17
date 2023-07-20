@@ -79,10 +79,13 @@
     margin-right: 5px;
 }
 .KnowMore {
-margin: auto;
-margin-top: 20px;
+    width: 100%;
+display: flex;
+justify-content: center;
+padding-top: 20px;
 font-weight: 900;
 cursor: pointer;
+border-top: 1px solid black;
 }
 .KnowMore img{
     width: 15px;
@@ -96,6 +99,9 @@ font-weight: 900;
 cursor: pointer;
 margin-bottom: 90px;
 }
+.payment:hover{
+    color: #7555d3;
+}
 #selection {
     margin-top: 30px;
     width: 100%;
@@ -103,4 +109,31 @@ margin-bottom: 90px;
     padding-left: 15px;
     padding-right: 15px;
     box-sizing: border-box;
+}
+.navBoxThird {
+    display: none;
+}
+.footerMeniu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.footerMeniu li {
+    list-style: none;
+}
+.footerMeniu li a{
+    text-decoration: none;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.broken{
+    border-bottom: 2px solid #7555d3;
+}
+.footerMeniu li a:hover {
+    border-bottom: 2px solid #7555d3;
+}
+.footerMeniuDiv{
+    display: none;
 }
